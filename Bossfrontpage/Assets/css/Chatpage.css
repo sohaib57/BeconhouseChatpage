@@ -1,0 +1,90 @@
+.navbar-custom {
+    background-color: #1E398D;
+}
+
+.logoutBtn,
+.logoutBtn:hover {
+    color: yellow !important;
+    border-color: yellow !important;
+}
+
+.main-top {
+    background-image: url(https://boss.beaconhouse.net/wp-content/uploads/2020/09/Group-3.jpg);
+    height: 390px;
+    max-width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+.text-heading {
+    border-bottom: 3px solid yellow;
+}
+
+.section-background {
+    background-color: #E6E2EB;
+    padding-bottom: 50px;
+}
+
+.left-column {
+    background-color: white;
+}
+
+.right-column {
+    background-color: white;
+}
+
+.userConnect {
+    width: 50px;
+    border-radius: 20px;
+}
+
+.userInfo {
+    position: relative;
+}
+
+.loginTime {
+    position: absolute;
+    right: 5px;
+    top: -8px;
+
+
+}
+
+.chat-header {
+
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.messageTextField {
+    margin-top: 160px;
+}
+
+.friendMsg {
+    width: 240px;
+}
+
+.userMsg {
+    width: 220px;
+}
+
+.input-group {
+    position: relative;
+}
+
+.input_area_vt {
+    width: 100%;
+    float: left;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    position: relative;
+
+}
+
+.msgSent {
+    position: absolute;
+    right: 20px;
+    top: 15px;
+    background: none;
+    border: none;
+    font-size: 16px;
+    color: #1E398D;
+}

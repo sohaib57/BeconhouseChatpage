@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Boss </title>
+
+    <!-- css stylesheet link -->
+    <link rel="stylesheet" href="./Assets/css/Chatpage.css">
+    <!-- Bootstrap cdn's -->
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+    <!-- Font awesome link -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+</head>
+
+<body>
+    <!-- Navbar starts here -->
+
+    <nav class="navbar navbar-expand-lg navbar-light navbar-custom">
+        <a class="navbar-brand" href="#"><img src="./Assets/images/logo.png" alt="Boss"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse " id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item  active px-4">
+                    <a class="nav-link text-white" href="#">Alumni</a>
+                </li>
+                <li class="nav-item px-4">
+                    <a class="nav-link  text-white" href="#">Chapter detail</a>
+                </li>
+
+                <li class="nav-item px-4">
+                    <a class="nav-link text-white" href="#">Directory</a>
+                </li>
+                <li class="nav-item px-4">
+                    <a class="nav-link  text-white " href="#">Job Opportunities</a>
+                </li>
+
+                <li class="nav-item px-4">
+                    <a class="nav-link text-white" href="#">Chat</a>
+                </li>
+                <li class="nav-item px-4">
+                    <a class="nav-link  text-white " href="#">More</a>
+                </li>
+
+
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <button class="btn logoutBtn border-yellow mr-5 my-2 my-sm-0 btn-sm" type="submit">logout</button>
+            </form>
+        </div>
+    </nav>
+    <!-- Navbar ends here -->
+
+    <!-- header starts from here -->
+    <header class="main-top d-flex justify-content-center align-items-center">
+        <div class="main-top-heading">
+            <h1 class="text-white text-heading">CHAT</h1>
+        </div>
+    </header>
+
+    <!-- Header ends here -->
+
+    <!-- Section starts from here -->
+    <section class="section-background">
+        <div class="container">
+            <div class="row pt-4">
+                <!-- left column -->
+                <div class="col-sm-12 col-lg-5 ">
+                    <div class="left-column">
+                        <!-- Search bar -->
+                        <div class="input-group  chat-header">
+                            <button type="button" class="btn btn-outline-primary bg-white border-0 py-3 px-3">
+                                <i class="fas fa-search fa-2x text-muted"></i></button>
+                            <input style="height: 56px;" type="search" class="form-control shadow-none border-0"
+                                placeholder="Search Your Connect Here" aria-label="Search"
+                                aria-describedby="search-addon" />
+                        </div>
+
+                        <!-- Connects list -->
+
+                        <!--   First connect -->
+                        <div class="friends mt-3 pt-4 bg-white chat-header">
+                            <div class="d-flex userInfo">
+                                <div class="left ml-3">
+                                    <img class="userConnect" src="./Assets/images/avatar1.png" alt="Avatar1">
+                                </div>
+
+                                <div class=" right ml-3">
+                                    <h6>Muhammmad Babar</h6>
+                                    <small class="loginTime text-muted"> Dec 21,2021</small>
+                                    <p class="text-muted">I will be there at that time</p>
+
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Second connect-->
+                        <div class="friends mt-2 pt-4 bg-white chat-header">
+                            <div class="d-flex userInfo">
+                                <div class="left ml-3">
+                                    <img class="userConnect" src="./Assets/images/avatar1.png" alt="Avatar1">
+                                </div>
+                                <div class="right ml-3">
+
+                                    <h6>Muhammmad Babar</h6>
+                                    <small class="loginTime text-muted"> Dec 21,2021</small>
+                                    <p class="text-muted">I will be there at that time</p>
+
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Third connect -->
+                        <div class="friends mt-2 pt-4 bg-white chat-header">
+                            <div class="d-flex userInfo">
+                                <div class="left ml-3">
+                                    <img class="userConnect" src="./Assets/images/avatar1.png" alt="Avatar1">
+                                </div>
+                                <div class=" right ml-3">
+
+                                    <h6>Muhammmad Babar</h6>
+                                    <small class="loginTime text-muted"> Dec 21,2021</small>
+                                    <p class="text-muted">I will be there at that time</p>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="friends mt-2 pt-4 bg-white chat-header">
+                            <div class="d-flex userInfo">
+                                <div class="left ml-3">
+                                    <img class="userConnect" src="./Assets/images/avatar1.png" alt="Avatar1">
+                                </div>
+                                <div class=" right ml-3">
+
+                                    <h6>Muhammmad Babar</h6>
+                                    <small class="loginTime text-muted"> Dec 21,2021</small>
+                                    <p class="text-muted">I will be there at that time</p>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="friends mt-2 pt-4 bg-white chat-header">
+                            <div class="d-flex userInfo">
+                                <div class="left ml-3">
+                                    <img class="userConnect" src="./Assets/images/avatar1.png" alt="Avatar1">
+                                </div>
+                                <div class=" right ml-3">
+
+                                    <h6>Muhammmad Babar</h6>
+                                    <small class="loginTime text-muted"> Dec 21,2021</small>
+                                    <p class="text-muted">I will be there at that time</p>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="friends mt-2 pt-4 bg-white">
+                            <div class="d-flex userInfo">
+                                <div class="left ml-3">
+                                    <img class="userConnect" src="./Assets/images/avatar1.png" alt="Avatar1">
+                                </div>
+                                <div class=" right ml-3">
+
+                                    <h6>Muhammmad Babar</h6>
+                                    <small class="loginTime text-muted"> Dec 21,2021</small>
+                                    <p class="text-muted">I will be there at that time</p>
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <!-- left column ends here -->
+
+                <!-- Right column starts from here -->
+                <div class=" col-lg-7 px-0 mt-4 mt-md-0 ">
+                    <div class="right-column">
+                        <!-- Chat header -->
+                        <div class="messages pt-3 pb-3 chat-header">
+                            <div class="friends bg-white">
+                                <div class="d-flex userInfo">
+                                    <div class="left ml-3">
+                                        <img class="userConnect" src="./Assets/images/avatar1.png" alt="Avatar1">
+                                    </div>
+                                    <div class=" right ml-3">
+
+                                        <h6 class="m-0">Muhammmad Babar</h6>
+                                        <small  class="text-muted">Class of 2016</small>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- chat header ends here -->
+
+                        <!-- Chatbox  -->
+                        <div class="chatBox mt-5">
+                            <!-- Friend messages -->
+                            <div class=" d-flex ml-md-3 mt-5 ml-0 justify-content-start">
+                                <div class="left ml-3 text-center">
+                                    <img class="userConnect" src="./Assets/images/avatar1.png" alt="Avatar1">
+                                </div>
+                                <div class=" ml-2 ">
+                                    <div class="chat-header">
+                                        <p class=" friendMsg text-muted text-left m-0 p-3 ">
+                                            Hey! How are you?
+                                        </p>
+                                    </div>
+
+                                    <small class="text-muted m-0">Dec 12,2021 12:35am</small>
+
+                                </div>
+                            </div>
+
+                            <!-- user messages -->
+                            <div class=" d-flex  mt-5 mr-3 float-right justify-content-start chat-header  ">
+                                <div class="right bg-grey m-2">
+                                    <p class="userMsg text-muted p-2">I'm fine Tell's About you ?</p>
+                                </div>
+                            </div>
+                            <div class="clearfix"></div>
+                            <!-- user messages -->
+                            <div class=" d-flex mt-5 mr-3  float-right  justify-content-start chat-header">
+                                <div class="right bg-grey m-2">
+                                    <p class="userMsg text-muted p-2 ">There are many variations of pass of Lorem
+                                        Ipsum available?
+                                        but the majority have suffered alteration.</p>
+                                </div>
+                            </div>
+                            <div class="clearfix"></div>
+
+                            <!-- Friend messages -->
+                            <div class=" d-flex ml-md-3 mt-5 ml-0 pb-5 justify-content-start">
+                                <div class="left ml-3 text-center">
+                                    <img class="userConnect" src="./Assets/images/avatar1.png" alt="Avatar1">
+                                </div>
+                                <div class=" ml-2 ">
+                                    <div class="chat-header">
+                                        <p class=" friendMsg text-muted text-left m-0 p-3">
+                                            Hey! How are you?
+                                        </p>
+                                    </div>
+
+                                    <small class="text-muted m-0">Dec 12,2021 12:35am</small>
+
+                                </div>
+                            </div>
+                            <!-- Message text field -->
+                            <div class="input_area_vt">
+                                <input style="height: 56px ; width: 100%;" type="text"
+                                    class="form-control shadow-none border-0 pr-5"
+                                    placeholder="Type Your Message Here..." aria-label="Search"
+                                    aria-describedby="search-addon" />
+                                <button type="button" class="msgSent">
+                                    <i class="fas fa-paper-plane"></i></button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+</body>
+
+</html>
